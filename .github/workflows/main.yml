@@ -22,7 +22,7 @@ jobs:
                   config_output: svg
                   config_display: large
                   config_padding: 0, +40%
-                  config_order: base.header, introduction, base.activity+community, base.repositories, languages, leetcode, lines, followup, habits, activity, isocalendar, repositories
+                  config_order: base.header, introduction, base.activity+community, base.repositories, languages, lines, followup, habits, activity, isocalendar, repositories
 
                   extras_css: |
                       .field svg {
@@ -104,8 +104,8 @@ jobs:
                   template: classic
 
                   # Plugins
-                  plugin_leetcode: yes
-                  plugin_leetcode_sections: solved, skills
+                  # plugin_leetcode: yes
+                  # plugin_leetcode_sections: solved, skills
 
                   plugin_isocalendar: yes
                   plugin_isocalendar_duration: full-year
